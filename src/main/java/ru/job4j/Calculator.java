@@ -1,5 +1,9 @@
 package ru.job4j;
 
+import org.w3c.dom.ls.LSOutput;
+
+import javax.xml.crypto.dsig.spec.XSLTTransformParameterSpec;
+
 public class Calculator {
     public static void main(String[] args) {
         int one = 1;
@@ -15,5 +19,9 @@ public class Calculator {
         System.out.println(sixDivTwo);
         System.out.println(fiveMinusTwo);
         System.out.println(fourTimeTwo);
+
+        String test = sixDivTwo == fiveMinusTwo ?  "RAVNO" : "asdasd";
+        System.out.println(test);
         }
-}
+    }
+
